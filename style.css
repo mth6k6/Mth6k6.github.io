@@ -32,6 +32,18 @@ header {
 .gallery img:hover {
   transform: scale(1.05);
 }
+figure {
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
+}
+
 
 footer {
   background: #222;
