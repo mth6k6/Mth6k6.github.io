@@ -45,6 +45,15 @@ figcaption {
   font-weight: 500;                   
   text-align: center;
 }
+.pattern-line {
+  background-image: url('images/mypettern.jfif'); /* Replace with your pattern image path */
+  background-repeat: repeat-x; /* Repeat horizontally */
+  background-size: auto 20px; /* Adjust height of the line */
+  height: 20px; /* Height of the line */
+  max-width: 600px; /* Limit the width */
+  margin: 0 auto 20px auto; /* Center and add spacing below */
+  border-radius: 5px; /* Optional: soft edges */
+}
 
 footer {
   background: #222;
@@ -52,3 +61,4 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+
