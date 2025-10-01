@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  background-color: #00FFFF;
-  color: black;
+  background-color: #222;
+  color: white;
   padding: 40px 20px;
 }
 
@@ -46,7 +46,7 @@ figcaption {
   text-align: center;
 }
 .pattern-line {
-  background-image: url('images/mypattern.png'); /* use .png or your converted image */
+  background-image: url('images/mypattern1.png'); /* use .png or your converted image */
   background-repeat: repeat-x; /* repeat horizontally */
   background-size: auto 30px;  /* adjust height */
   height: 30px; /* line height */
@@ -60,6 +60,7 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+
 
 
 
