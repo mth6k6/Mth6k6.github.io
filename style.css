@@ -46,13 +46,12 @@ figcaption {
   text-align: center;
 }
 .pattern-line {
-  background-image: url('images/mypettern.jfif'); /* Replace with your pattern image path */
-  background-repeat: repeat-x; /* Repeat horizontally */
-  background-size: auto 20px; /* Adjust height of the line */
-  height: 20px; /* Height of the line */
-  max-width: 600px; /* Limit the width */
-  margin: 0 auto 20px auto; /* Center and add spacing below */
-  border-radius: 5px; /* Optional: soft edges */
+  background-image: url('images/mypattern.png'); /* use .png or your converted image */
+  background-repeat: repeat-x; /* repeat horizontally */
+  background-size: auto 30px;  /* adjust height */
+  height: 30px; /* line height */
+  width: 100%; /* span full screen */
+  margin: 0;   /* no centering, touches edges */
 }
 
 footer {
@@ -61,4 +60,5 @@ footer {
   padding: 20px;
   font-size: 14px;
 }
+
 
